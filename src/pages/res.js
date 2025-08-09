@@ -23,7 +23,6 @@ export default function Res() {
       const audio = new Audio(audioSrc);
       audio.play();
     }
-
     // --- Sync pops to audio ---
     const startDelay = 1500; // delay before pops start
     const beatInterval = 100; // ms between pops
